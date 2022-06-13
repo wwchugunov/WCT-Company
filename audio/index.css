@@ -27,12 +27,12 @@
  
  }
  
- .play-list{
+ .play-list,  .play-list1{
      width: 160px;
      height: 400px;
      position: relative;
  }
- .audio-title{
+ .audio-title,  .audio-title1{
      text-align: center;
      padding: 5px;
      text-transform: uppercase;
@@ -40,31 +40,36 @@
      font-size: 15px;
  }
  
- .play-btn{
+ .play-btn,  .play-btn1{
      background: greenyellow;
      border: none;
      border-radius: 5px;
      width: 130px;
      height: 30px;
      cursor: pointer;
-     transition: all 1s linear;
+     transition: all 0.1s linear;
      display: block;
      margin: 0 auto;
      margin-top: 35px;
  }
  
- .play-btn:hover{
+ .play-btn, .play-btn1:hover{
      background: rgb(47, 144, 255);
  }
+
+ .play-btn, .play-btn1:active{
+    background:  rgb(255, 51, 0)
+ }
  
- .ProgressContainer{
+
+ .ProgressContainer,  .ProgressContainer1{
      width: 160px;
      height: 6px;
      background: rgb(0, 162, 255);
      margin-top: 15px;
  }
  
- .Progress{
+ .Progress, .Progress1{
      height: 6px;
      background: rgb(1, 22, 34);
      
