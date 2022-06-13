@@ -8,27 +8,35 @@
     <link rel="stylesheet" href="./css/onepage-scroll.css">
     <link rel="stylesheet" href="./css/slick.css">
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./bg-Call/style.css">
 </head>
 <body>
 
 
 
+    <div class="container">
+        <div class="header__inner" id="header__inner">
+            <div class="logo"><a href="#">WCT</a></div>
+            <nav class="menu">
+                <lu class="menu-list">
+                    <li class="menu-items"><a href="#header" class="menu-link">Главная</a></li>
+                    <li class="menu-items"><a href="№content" class="menu-link">О нас</a></li>
+                    <li class="menu-items"><a href="" class="menu-link">услуги</a></li>
+                    <li class="menu-items"><a href="" class="menu-link">наши проекты</a></li>
+                    <li class="menu-items"><a href="" class="menu-link">контакты</a></li>
+                    <li class="menu-items"><a href="#demoCall" class="menu-link">Демо</a></li>
+                </lu>
+            </nav>
+        </div>
+    </div>
+
+
+
     <div class="main">
         <section>
-            <header class="header">
+            <header class="header header_min header_normal" id="header">
                 <div class="container">
-                    <div class="header__inner">
-                        <div class="logo"></div>
-                        <nav class="menu">
-                            <lu class="menu-list">
-                                <li class="menu-items"><a href="" class="menu-link">Главная</a></li>
-                                <li class="menu-items"><a href="" class="menu-link">О нас</a></li>
-                                <li class="menu-items"><a href="" class="menu-link">услуги</a></li>
-                                <li class="menu-items"><a href="" class="menu-link">наши проекты</a></li>
-                                <li class="menu-items"><a href="" class="menu-link">контакты</a></li>
-                            </lu>
-                        </nav>
-                    </div>
+
                 </div>
             </header>
         </section>
@@ -36,13 +44,40 @@
             <div class="content">
                 <div class="container">
                     <div class="content__inner">
-          
+                        <div class="wrap-slider">
+                            <div class="slide">
+                                <img src="./images/about.png" alt="" class="slider__iimg">
+                                <div class="slider-title">
+                                    Lorem ipsum dolor sit amet consectetur 
+                                    adipisicing elit. Iure delectus, modi 
+                                    ducimus laudantium quas, est commodi 
+                                    eum blanditiis animi nihil ipsam, explicabo 
+                                    eligendi natus alias reprehenderit excepturi!
+                                </div>
+                            </div>
+                            <div class="slide">
+                                <img src="./images/about.png" alt="" class="slider__iimg">
+                                <div class="slider-title">
+                                    Lorem ipsum dolor sit amet consectetur 
+                                    adipisicing elit. Iure delectus, modi 
+                                    ducimus laudantium quas, est commodi 
+                                    eum blanditiis animi nihil ipsam, explicabo 
+                                    eligendi natus alias reprehenderit excepturi!
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
         </section>
+
+
+
+
+
+
         <section>
-            <div class="demoCall">
+            <div class="demoCall" id="demoCall">
                 <div class="container">
                     <div class="call-title">
                         Примеры звонков
@@ -99,9 +134,15 @@
                 </div>
             </div>
         </section>
+
+
+
+
+
+
         <section>
             <div class="services">
-                <h1>services</h1>
+
             </div>
         </section>
         <section>
@@ -117,6 +158,9 @@
     <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
     <script src="./js/jquery.onepage-scroll.js"></script>
     <script src="./js/slick.min.js"></script>
+    <script src="http://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script src="http://threejs.org/examples/js/libs/stats.min.js"></script>
     <script src="./js/main.js"></script>
+    <script src="./bg-Call/main.js"></script>
 </body>
 </html>

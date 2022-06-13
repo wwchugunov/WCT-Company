@@ -1,14 +1,12 @@
-//  const playOne = document.querySelector('');
-//  const playTwo = document.querySelector('');
-//  const playTree = document.querySelector('');
-//  const playFour = document.querySelector('');
+
+
 
 $(".main").onepage_scroll({
   animationTime:  500,
   loop:  true,
 });
 
-$('.sliders').slick({
+$('.wrap-slider').slick({
   dots: false,
   infinite: true,
   speed: 300,
