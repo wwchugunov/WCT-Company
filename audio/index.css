@@ -27,12 +27,12 @@
  
  }
  
- .play-list,  .play-list1{
+ .play-list,  .play-list1,  .play-list2,  .play-list3{
      width: 160px;
      height: 400px;
      position: relative;
  }
- .audio-title,  .audio-title1{
+ .audio-title,  .audio-title1,  .audio-title2,  .audio-title3{
      text-align: center;
      padding: 5px;
      text-transform: uppercase;
@@ -40,7 +40,7 @@
      font-size: 15px;
  }
  
- .play-btn,  .play-btn1{
+ .play-btn,  .play-btn1,  .play-btn2,  .play-btn3{
      background: greenyellow;
      border: none;
      border-radius: 5px;
@@ -53,24 +53,25 @@
      margin-top: 35px;
  }
  
- .play-btn, .play-btn1:hover{
+ .play-btn, .play-btn1, .play-btn2, .play-btn3:hover{
      background: rgb(47, 144, 255);
  }
 
- .play-btn, .play-btn1:active{
+ .play-btn, .play-btn1, .play-btn2, .play-btn3:active{
     background:  rgb(255, 51, 0)
  }
  
 
- .ProgressContainer,  .ProgressContainer1{
+ .ProgressContainer,  .ProgressContainer1,  .ProgressContainer2,  .ProgressContainer3{
      width: 160px;
      height: 6px;
      background: rgb(0, 162, 255);
      margin-top: 15px;
  }
  
- .Progress, .Progress1{
+ .Progress, .Progress1, .Progress2, .Progress3{
      height: 6px;
      background: rgb(1, 22, 34);
      
  }
+

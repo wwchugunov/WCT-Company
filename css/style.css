@@ -35,8 +35,7 @@ body{
 .demoCall{
   height: 100vh;
   width: 100%;
-  background: rgb(119,0,52);
-  background: radial-gradient(circle, rgb(2, 65, 102) 0%, rgb(6, 119, 185) 47%, rgb(3, 6, 53) 100%);
+  background: #05386B;
   position: relative;
   position: absolute;
 }
@@ -55,3 +54,94 @@ body{
   position: absolute;
 }
 
+
+
+.call-title{
+  color: #EDF5E1;
+  font-size: 25px;
+  text-align: center;
+  margin-top: 30px;
+  text-transform: uppercase;
+  border-top: 1px solid #EDF5E1;
+  border-bottom: 1px solid #EDF5E1;
+  width: 500px;
+  margin: 0 auto;
+  margin-top: 30px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+
+.header__inner{
+  width: 1000px;
+  display: flex;
+  margin: 0 auto;
+  margin-top: 100px;
+  justify-content: space-between;
+
+}
+
+.demoCallInner{
+  width: 1000px;
+  display: flex;
+  margin: 0 auto;
+  margin-top: 100px;
+  justify-content: space-between;
+}
+
+.play-list,  .play-list1,  .play-list2,  .play-list3{
+  width: 160px;
+  height: 400px;
+  position: relative;
+}
+.audio-title, .audio-title1, .audio-title2, .audio-title3 {
+  text-align: center;
+  padding: 5px;
+  color: #EDF5E1;
+  font-family: sans-serif;
+  font-size: 15px;
+  padding-bottom: 20px;
+}
+
+.play-btn,  .play-btn1,  .play-btn2,  .play-btn3{
+  background: transparent;
+  border: none;
+  border-radius: 50%;
+  width:   50px;
+  height:  50px;
+  cursor: pointer;
+  transition: all 0.1s linear;
+  display: block;
+  margin: 0 auto;
+  margin-top: 35px;
+  color: #EDF5E1;
+  border: 2px solid  rgb(12, 255, 4);
+}
+
+.audio__img{
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+}
+
+.audio__img_bg{
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+}
+
+
+
+.ProgressContainer,  .ProgressContainer1,  .ProgressContainer2,  .ProgressContainer3{
+  width: 160px;
+  margin-top: 15px;
+  width: 160px;
+  height: 2px;
+  background: rgb(255 255 255);
+  margin-top: 15px;
+}
+
+.Progress, .Progress1, .Progress2, .Progress3{
+  height: 2px;
+  background: rgb(1, 22, 34);
+  
+}
