@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+ }
+ 
+ body{
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box; 
+ }
+ 
+ 
+ 
+ .container{
+     width: 100%;
+     max-width: 1170px;
+     margin: 0 auto;
+ }
+ 
+ .header__inner{
+     width: 1000px;
+     display: flex;
+     margin: 0 auto;
+     margin-top: 100px;
+     justify-content: space-between;
+ 
+ }
+ 
+ .play-list{
+     width: 160px;
+     height: 400px;
+     position: relative;
+ }
+ .audio-title{
+     text-align: center;
+     padding: 5px;
+     text-transform: uppercase;
+     color: rgb(34, 202, 18);
+     font-size: 15px;
+ }
+ 
+ .play-btn{
+     background: greenyellow;
+     border: none;
+     border-radius: 5px;
+     width: 130px;
+     height: 30px;
+     cursor: pointer;
+     transition: all 1s linear;
+     display: block;
+     margin: 0 auto;
+     margin-top: 35px;
+ }
+ 
+ .play-btn:hover{
+     background: rgb(47, 144, 255);
+ }
+ 
+ .ProgressContainer{
+     width: 160px;
+     height: 6px;
+     background: rgb(0, 162, 255);
+     margin-top: 15px;
+ }
+ 
+ .Progress{
+     height: 6px;
+     background: rgb(1, 22, 34);
+     
+ }

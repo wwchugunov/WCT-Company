@@ -1,0 +1,57 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6, a{
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+.header{
+  height: 100vh;
+  width: 100%;
+  background-image: url(../images/about.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  position: absolute;
+}
+.content{
+  height: 100vh;
+  width: 100%;
+  background: rgb(108, 199, 34);
+  position: relative;
+
+}
+.demoCall{
+  height: 100vh;
+  width: 100%;
+  background: rgb(119,0,52);
+  background: radial-gradient(circle, rgb(2, 65, 102) 0%, rgb(6, 119, 185) 47%, rgb(3, 6, 53) 100%);
+  position: relative;
+  position: absolute;
+}
+.services{
+  height: 100vh;
+  width: 100%;
+  background: rgb(94, 110, 3);
+  position: relative;
+  position: absolute;
+}
+.footer{
+  height: 100vh;
+  width: 100%;
+  background: rgb(241, 209, 22);
+  position: relative;
+  position: absolute;
+}
+
