@@ -39,7 +39,6 @@ body{
   width: 100%;
   position: relative;
   position: absolute;
-  background: #05386B;
 }
 .content{
   height: 100vh;
@@ -72,6 +71,11 @@ body{
 }
 
 
+#header{
+  background-image: url(../images/about.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
 
 
@@ -340,7 +344,7 @@ body{
   transition: all 0.35s linear;
   animation: move 1s linear alternate infinite;
   animation-name: servis-anomation;
-  animation-duration: 1s;
+  animation-duration: calc(1s);
   animation-iteration-count: infinite ;
 
 } 
