@@ -2,7 +2,7 @@
 
 
 $(".main").onepage_scroll({
-  animationTime:  100,
+  animationTime:  1000,
   loop:  true,
 });
 
