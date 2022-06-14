@@ -1,6 +1,4 @@
 
-
-
 $(".main").onepage_scroll({
   animationTime:  1000,
   loop:  true,
@@ -11,9 +9,32 @@ $('.wrap-slider').slick({
   infinite: true,
   speed: 300,
   slidesToShow: 1,
+  adaptiveHeight: true, 
+  arrows: false
+});
+
+$('.servisxlid').slick({
+  mobileFirst: true,
+  focusOnSelect: true,
+  autoplay: true,
+  dots: true,
+  infinite: true,
+  speed: 3000,
+  slidesToShow: 1,
   adaptiveHeight: true,
   arrows: false
 });
+
+
+
+
+
+
+$('#services__inner').click(function(){
+  $('#servis-item').animate({passive: true}, 800);
+});
+
+
 const player = document.querySelector('.play-list'); //Плеер
 const audio = document.querySelector('.audio'); //Аудио
 const play = document.querySelector('.play-btn'); // Кнопка
